@@ -1,6 +1,6 @@
 {
   "name": "ui.router.redirect",
-  "description": "",
+  "description": "redirect state to another state",
   "main": "dist/ui.router.redirect.js",
   "authors": [
     "Darlan Mendonça <darlanmendonca@gmail.com> (https://darlanmendonca.github.io)"
