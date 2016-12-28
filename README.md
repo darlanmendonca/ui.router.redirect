@@ -25,9 +25,8 @@ angular
   .config(HomeConfig)
 
 function HomeConfig($stateProvider) {
-  $stateProvider
-    .state('home', {
-      url: '/',
-      redirectTo: 'users' // target state to go
-    })
+  $stateProvider.state('home', {
+    url: '/',
+    redirectTo: 'users' // name of state to go
+  })
 ```
