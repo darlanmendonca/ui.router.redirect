@@ -6,6 +6,7 @@ import plumber from 'gulp-plumber'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
 import {scripts} from './config.js'
+import ngAnnotate from 'gulp-ng-annotate'
 
 gulp.task('scripts', scriptsTask)
 
@@ -14,6 +15,7 @@ function scriptsTask() {
     .src(scripts.src)
     .pipe(plumber({errorHandler}))
     .pipe(sourcemaps.init())
+    .pipe(ngAnnotate())
     .pipe(babel())
     .pipe(concat(scripts.output))
     .pipe(uglify({mangle: false}))
