@@ -6,5 +6,8 @@
     "Darlan Mendonça <darlanmendonca@gmail.com> (https://darlanmendonca.github.io)"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/darlanmendonca/ui.router.redirect"
+  "homepage": "https://github.com/darlanmendonca/ui.router.redirect",
+  "dependencies": {
+    "angular-ui-router": "^0.3.2"
+  }
 }
