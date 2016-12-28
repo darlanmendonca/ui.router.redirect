@@ -1,0 +1,10 @@
+{
+  "name": "ui.router.redirect",
+  "description": "",
+  "main": "dist/ui.router.redirect.js",
+  "authors": [
+    "Darlan Mendonça <darlanmendonca@gmail.com> (https://darlanmendonca.github.io)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/darlanmendonca/ui.router.redirect"
+}
