@@ -1,9 +1,11 @@
 {
-  "name": "ui.router.redirect",
+  "name": "angular-ui-router-redirect",
   "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "description": "redirect state to another state",
+  "main": "dist/ui.router.redirect.js",
+  "dependencies": {
+    "angular-ui-router": "^0.3.2"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
     "bower-files": "^3.13.3",
