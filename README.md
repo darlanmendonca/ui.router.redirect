@@ -1,6 +1,10 @@
 ## install
 
 ```sh
+npm install --save angular-ui-router-redirect
+```
+
+```sh
 bower install --save ui.router.redirect
 ```
 
