@@ -1,8 +1,9 @@
 {
   "name": "angular-ui-router-redirect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "redirect state to another state",
   "main": "dist/ui.router.redirect.js",
+  "files": ["dist"],
   "dependencies": {
     "angular-ui-router": "^0.3.2"
   },

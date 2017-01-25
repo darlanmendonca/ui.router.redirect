@@ -4,12 +4,6 @@
 npm install --save angular-ui-router-redirect
 ```
 
-```sh
-bower install --save ui.router.redirect
-```
-
-Or just download the main files, located in [dist/](https://github.com/darlanmendonca/ui.router.redirect/tree/master/dist)
-
 ## usage
 
 ```js
@@ -19,7 +13,6 @@ angular.module('app', [
   'ui.router.redirect'
 ]);
 ```
-
 
 and finally, in your states, just use the key `redirectTo` with a state to redirect, e.g.
 
